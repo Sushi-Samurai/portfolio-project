@@ -24,8 +24,19 @@ h6 {
   font-weight: bold;
 }
 
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 64px;
+  line-height: 1.5;
+}
+
 p {
   font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .hero {
@@ -38,9 +49,6 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-}
-.hero h1 {
-  font-size: 96px;
 }
 .hero h2 {
   font-family: var(--default-font-family);
@@ -56,4 +64,37 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 60px;
+}
+
+.btn-branding-outline {
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  color: var(--branding-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 60px;
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  .hero {
+    padding: 80px 10px;
+  }
+  .hero p {
+    font-size: 25px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
