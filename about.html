@@ -31,6 +31,57 @@
     ></script>
   </head>
   <body>
-    <h1>About me</h1>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/">Sam Turner</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+            <a class="nav-link" href="/about.html">About</a>
+            <a class="nav-link" href="/work.html">My Work</a>
+            <a class="nav-link" href="/contact.html">Contact</a>
+            <a class="nav-link disabled"></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="about-section container">
+      <div class="row">
+        <div class="col-lg-6">
+          <img
+            src="images/sam.jpg"
+            class="sam-headshot img-fluid rounded"
+            alt="headshot of Sam Turner"
+          />
+        </div>
+        <div class="col-lg-6">
+          <div class="about-section-content">
+            <h1 class="mb-4">Hi, I am Sam Turner</h1>
+            <h2 class="mb-4">
+              Front-end Developer, based in the United States.
+            </h2>
+            <p class="text-muted mb-4">
+              Nisl faucibus quis urna nibh ut amet diam suscipit pretium massa
+              sollicitudin in risus in sagittis nisl faucibus quis urna nibh ut
+              amet diam suscipit pretium massa, sollicitudin in risus in.
+              Sagittis.
+            </p>
+            <a href="/work.html" class="btn btn-branding">View my projects</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
