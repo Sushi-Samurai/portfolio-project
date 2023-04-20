@@ -110,7 +110,11 @@ p {
 
 .work-inquiry {
   background: var(--primary-color);
-  margin: 20px 0;
+  margin: 20px;
+}
+
+.contact-btn {
+  margin: 45px;
 }
 
 .project-images {
