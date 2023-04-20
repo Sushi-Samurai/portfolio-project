@@ -108,6 +108,11 @@ p {
   padding: 120px 60px;
 }
 
+.work-inquiry {
+  background: var(--primary-color);
+  margin: 20px 0;
+}
+
 .project-images {
   object-fit: cover;
   width: 560px;
