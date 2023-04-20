@@ -31,31 +31,33 @@
     ></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="/">Sam Turner</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="/">Home</a>
-            <a class="nav-link" href="/about.html">About</a>
-            <a class="nav-link" href="/work.html">My Work</a>
-            <a class="nav-link" href="/contact.html">Contact</a>
-            <a class="nav-link disabled"></a>
-          </div>
-        </div>
-      </div>
-    </nav>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="homepage"
+          ><h3 class="logo d-none d-md-block">Sam Turner</h3>
+          <h3 class="logo d-block d-md-none">ST</h3>
+        </a>
+
+        <ul>
+          <li>
+            <a href="/" title="homepage" class="navi-link"> Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About page" class="navi-link">
+              About</a
+            >
+          </li>
+          <li>
+            <a href="/work.html" title="My Work" class="navi-link"> My Work</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Me" class="navi-link">
+              Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
 
     <div class="content-container container">
       <h1 class="pb-5 mb-5">Let's get in touch!</h1>
